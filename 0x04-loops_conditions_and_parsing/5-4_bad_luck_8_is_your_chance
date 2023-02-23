@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-#display "Best School" and print "Hi" if condition is met
+# display "Best School" and print "Hi" if condition is met
 count=1
 while [ $count -le 10 ]
 do
