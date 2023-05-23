@@ -6,7 +6,7 @@ import sys
 
 
 if __name__ == '__main__':
-    employeeId = sys.argv[1]
+    user_Id = sys.argv[1]
     url = "https://jsonplaceholder.typicode.com/users"
     user = requests.get(url + "users/{}".format(sys.argv[1])).json()
     todos = requests.get(url + "todos", params={"userId": sys.argv[1]}).json()
