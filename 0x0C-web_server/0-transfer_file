@@ -7,5 +7,5 @@ else
 	server_ip=$2
 	ssh_key=$4
 
-	scp -0 StrichHostKeyChecking=no -i "$ssh_key" "$File_path" "$username@$server_ip:~"
+	scp -0 StrichHostKeyChecking=no -i "$ssh_key" "$File_path" "$username@$server_ip":~
 fi
